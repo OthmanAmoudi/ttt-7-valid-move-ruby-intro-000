@@ -1,6 +1,6 @@
 # code your #valid_move? method here
-def valid_move?(user_input)
-  if user_input.between(0,8)
+def valid_move?(index)
+  if index.between(0,8)
     position_taken?
   else
     return "Out of Range"
